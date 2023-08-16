@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_web_page_models",
+  "info": {
+    "displayName": "Model",
+    "icon": "emotionHappy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menu": {
+      "displayName": "Menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "web-page.menu"
+    },
+    "cards": {
+      "displayName": "Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "web-page.card"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

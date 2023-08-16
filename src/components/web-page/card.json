@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_web_page_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
